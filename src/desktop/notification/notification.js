@@ -31,7 +31,7 @@ export default class Panel extends Component
         window.open("mailto:a1921jee@gmail.com?subject=Feedback", "_blank");
     }
     repo = () => {
-        window.open("https://github.com/ArchismanKarmakar/AK-Protfolio-OS", "_blank");
+        window.open("https://github.com/ArchismanKarmakar/AK-Portfolio-OS", "_blank");
     }
     render()
     {
