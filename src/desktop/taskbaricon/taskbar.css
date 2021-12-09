@@ -1,0 +1,28 @@
+.taskicon-cont{
+    height:100%;
+    width:100%;
+    display: inline-block;
+    user-select: none;
+}
+.taskicon-cont:hover{
+    background-color: blue;
+}
+.taskicon{
+    height:70%;
+    display:block;
+    margin:auto;
+    position: relative;
+    top:20%;
+}
+@media only screen and (max-width: 720px) {
+    .taskicon-cont{
+        width:6%;
+    }
+}
+@media (orientation:portrait)
+{
+    .taskicon-cont{
+        width:11%;
+    }
+}
+
